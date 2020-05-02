@@ -1,0 +1,28 @@
+<div style="align-items: center;"><p *ngIf="isAdmin">
+    Welcome Admin !!
+   </p>
+   <p *ngIf="!isAdmin">
+     Welcome Guest !!
+   </p>
+   </div>
+
+<div class="container" style="align-items: center;"><table >
+  <tr>
+      <th>Player Id</th>
+      <th>Player Name</th> 
+      <th>Player Position</th>
+      <th>Player Image</th>
+      <th colspan='3'>Action</th>
+  </tr>
+  <tr *ngFor="let player of players, let i = index">
+      <td>{{player.id}}</td>
+      <td><a [routerLink]="['player',player.id]">{{player.name}}</a></td>
+      <td>{{player.pos}}</td>
+     
+      <td><img [src]="player.imgPath" /></td> 
+      <td><button (click)="addToTeam(player)">Add To Team</button></td>
+      <td><button (click)="showDetails(player)" *ngIf = "isAdmin">Details</button></td>
+  </tr>
+  </table>
+  <div><router-outlet></router-outlet></div>
+  </div>

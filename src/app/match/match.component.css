@@ -1,0 +1,39 @@
+img{
+    width: auto;
+    height: 100px;
+  }   
+    table{
+    display: 'inline-block';
+    float: left;
+    margin-left: 50px;
+  }
+    table caption{
+    text-align: center;
+  }       
+    th{
+    text-align: center;
+    background-color: peachpuff;
+    font-weight: bold;
+  }
+   
+  #myHeader{
+    position:absolute;
+    top:0;
+    right:0;
+  } 
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: #f0e68c; */
+}
+  table,
+  td,
+  th {
+    padding: 10px;
+    border: 2px solid #1c87c9;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    text-align: center;
+  }

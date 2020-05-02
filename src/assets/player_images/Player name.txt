@@ -1,0 +1,11 @@
+p5 - yuzvendra-chahal
+p6 - kedar-mahadav-jadhav
+p7 - ravichandran-ashwin
+p8 - jasprit-jasbirsingh-bumrah
+p9 - rishabh-rajendra-pant
+p10 - hardik-himanshu-pandya
+p11 - kuldeep-yadav
+p12 - sanju-samson
+p13 - shami-ahmed
+p14 - kannaur-lokesh-rahul
+p15 - ishant-sharma-
